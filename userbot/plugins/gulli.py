@@ -1,4 +1,4 @@
-# gali plugin By DARK COBRA 
+# gali plugin By DARK Ultra 
 """Emoji
 Available Commands:
 .gulli"""
