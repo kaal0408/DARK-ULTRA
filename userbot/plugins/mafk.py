@@ -49,7 +49,7 @@ async def set_not_afk(event):
             )
         except Exception as e:  # pylint:disable=C0103,W0703
             await borg.send_message(  # pylint:disable=E0602 # Originally by @ProgrammingError
-# I think its first for DARKCOBRA
+# I think its first for DARKultra
                 event.chat_id,
                 "Please set `PRIVATE_GROUP_BOT_API_ID` "
                 + "for the proper functioning of afk functionality "
@@ -87,7 +87,7 @@ async def on_afk(event):
         return False
     if USER_AFK and not (await event.get_sender()).bot:
         msg = None# Originally by @ProgrammingError
-# I think its first for DARKCOBRA
+# I think its first for DARKultra
         message_to_reply = (
             f"✨✨**ßoss #AFK since :-**`{total_afk_time}`"
             + f"\n\n🔸__If AnyThing Imp Then dm __🔸"
@@ -119,7 +119,7 @@ async def _(event):
     last_afk_message = {}
     afk_end = {}
     start_1 = datetime.now()# Originally by @ProgrammingError
-# I think its first for DARKCOBRA
+# I think its first for DARKultra
     afk_start = start_1.replace(microsecond=0)
     reason = event.pattern_match.group(1)
     pic = await event.client.download_media(atulbro)
@@ -127,7 +127,7 @@ async def _(event):
         last_seen_status = await borg(  # pylint:disable=E0602
             functions.account.GetPrivacyRequest(types.InputPrivacyKeyStatusTimestamp())
         )# Originally by @ProgrammingError
-# I think its first for DARKCOBRA
+# I think its first for DARKultra
         if isinstance(last_seen_status.rules, types.PrivacyValueAllowAll):
             afk_time = datetime.datetime.now()  # pylint:disable=E0602
         USER_AFK = f"yes: {reason} {pic}"  # pylint:disable=E0602
