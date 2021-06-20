@@ -17,7 +17,7 @@ from userbot import bot, CMD_HELP
      # Now Gifs nd Stickers also Support
      # OpenCV Basics
 
-path = "./dcobra/"
+path = "./dultra/"
 if not os.path.isdir(path):
     os.makedirs(path)
     
