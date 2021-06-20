@@ -27,7 +27,7 @@ from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
 from userbot import bot, CMD_HELP , AUTONAME , DEFAULT_BIO , ALIVE_NAME
 DARKCOBRA = " "
 DEFAULTUSER = str(AUTONAME) if AUTONAME else str(ALIVE_NAME)
-DEFAULTUSERBIO = str(DEFAULT_BIO) if DEFAULT_BIO else "Dark Cobra is best"
+DEFAULTUSERBIO = str(DEFAULT_BIO) if DEFAULT_BIO else "Dark Ultra is best"
 BOTLOG_CHATID = Config.PRIVATE_GROUP_BOT_API_ID
 BOTLOG = True
 
@@ -88,7 +88,7 @@ async def _(event):
     if event.fwd_from:
         return
     fname = f"{DEFAULTUSER}"
-    lname = f"{DARKCOBRA}"
+    lname = f"{DARKUltra}"
     bio = f"{DEFAULTUSERBIO}"
     n = 1
     await borg(functions.photos.DeletePhotosRequest(await event.client.get_profile_photos("me", limit= n)))    
