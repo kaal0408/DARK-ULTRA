@@ -63,7 +63,7 @@ async def _(event):
             'style': 'https://telegra.ph/file/aaaa686bd3acff51208d7.jpg',
             'content': open(media, "rb"),
             },
-      headers={"api-key": DARKCOBRA},
+      headers={"api-key": DARKultra},
     )
 
       os.remove(media)
