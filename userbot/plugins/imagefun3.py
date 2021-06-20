@@ -10,7 +10,7 @@ from telethon.tl.types import MessageMediaPhoto
 from userbot.utils import admin_cmd
 from userbot import bot , CMD_HELP
 
-path = "./dcobra/"
+path = "./dultra/"
 if not os.path.isdir(path):
     os.makedirs(path)
 
