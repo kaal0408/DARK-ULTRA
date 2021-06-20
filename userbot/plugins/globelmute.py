@@ -1,6 +1,6 @@
 '''
 Fuck
-Fixed for userbot.. By @hellboi_atul.
+Fixed for userbot.. By @Murat_30_God.
 '''
 from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
