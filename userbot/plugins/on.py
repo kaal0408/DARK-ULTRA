@@ -22,7 +22,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 global ok
 ok = borg.uid
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK ultra"
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO" , None)
 
 TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
@@ -34,14 +34,14 @@ if TG_BOT_USER_NAME_BF_HER is not None:
         query = event.text
         me = await borg.get_me()
         uptime = await dcdef.get_readable_time((time.time() - Lastupdate))
-        dc_text=(f"** 𝙳𝙰𝚁𝙺 𝙲𝙾𝙱𝚁𝙰 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴**\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n✘ About My System ✘\n\n➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Dark_cobra_support)\n➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝙏𝙚𝙖𝙢 𝘿𝘾](https://github.com/DARK-COBRA)\n➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝘿𝙖𝙧𝙠-𝘾𝙤𝙗𝙧𝙖](https://github.com/DARK-COBRA/DARKCOBRA)\n\n➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
+        dc_text=(f"** 𝙳𝙰𝚁𝙺 ultra 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴**\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n✘ About My System ✘\n\n➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Dark_ultra_support)\n➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝙏𝙚𝙖𝙢 𝘿U](https://github.com/kaal0408)\n➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝘿𝙖𝙧𝙠-Ultra](https://github.com/kaal408/darkultra)\n\n➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
         if query.startswith("alive") and event.query.user_id == me.id:
             buttons = [
                 [
                     Button.url("Repo", "https://github.com/DARK-COBRA/DARKCOBRA"),
-                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/DARK-COBRA/DARKCOBRA/blob/master")],
+                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/kaal0408/darkultra/blob/master")],
                     [Button.url("String", "https://repl.it/@Danish00/DarkCobra#main.py"),
-                    Button.url("Channel", "https://t.me/Dark_cobra_support"),
+                    Button.url("Channel", "https://t.me/Dark_ultra_support"),
                 ]
             ]
             if ALIVE_PHOTTO and ALIVE_PHOTTO.endswith((".jpg", ".png")):
@@ -61,7 +61,7 @@ if TG_BOT_USER_NAME_BF_HER is not None:
                 )
             else:
                 result = builder.article(
-                    title="Dark Cobra",
+                    title="Dark ultra",
                     text=dc_text,
                     buttons=buttons,
                     link_preview=False,
