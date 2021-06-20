@@ -1,7 +1,7 @@
 # Original By 
 # @THE_B_LACK_HAT
 # @danish_00
-# For #Cobra
+# For #Ultra
 #
 # Card Generator
 ##############################
