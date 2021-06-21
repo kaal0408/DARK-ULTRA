@@ -169,7 +169,7 @@ async def bot_ver(event):
             )
         else:
             await event.edit(
-                "Don't bother me😑😑 ,you're running - 'DC 2.0' anyway!"
+                "Don't bother me😑😑 ,you're running - 'Du 2.0' anyway!"
             )
 
 
