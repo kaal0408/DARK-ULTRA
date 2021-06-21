@@ -2,6 +2,7 @@
 # Give credits... Dont remove or edit these lines
 # uses ytdl 
 # made for DARK COBRA userbot..
+# Now in Dark ultra userbot..
 import os
 import time
 import math
