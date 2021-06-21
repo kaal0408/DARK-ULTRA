@@ -24,7 +24,7 @@ async def _(event):
         as_document = True
     elif input_str == "text":
         as_text = True
-    await event.edit("`Calculating ur ⚜️DarkCobra⚜️ Server Speed. Please wait!`")
+    await event.edit("`Calculating ur ⚜️Darkultra⚜️ Server Speed. Please wait!`")
     start = datetime.now()
     s = speedtest.Speedtest()
     s.get_best_server()
@@ -46,7 +46,7 @@ async def _(event):
         response = s.results.share()
         speedtest_image = response
         if as_text:
-            await event.edit("""`DarkCobra Server Speed in {} sec`
+            await event.edit("""`Darkultra Server Speed in {} sec`
 
 `Download: {}`
 `Upload: {}`
