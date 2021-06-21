@@ -8,7 +8,7 @@ import pybase64
 from sys import executable
 from userbot import CMD_HELP, ALIVE_NAME, BOTLOG, BOTLOG_CHATID, bot
 from userbot.utils import admin_cmd 
-DARKCOBRA = str(ALIVE_NAME) if ALIVE_NAME else "DC"
+DARKCOBRA = str(ALIVE_NAME) if ALIVE_NAME else "Du"
 
 import inspect
 running_processes: dict = {}
@@ -16,7 +16,7 @@ running_processes: dict = {}
 
 @bot.on(admin_cmd(pattern="term(?: |$|\n)([\s\S]*)"))
 async def dc(event):  
-    await event.edit(f"**{DARKCOBRA}**: `Running Terminal.....`")
+    await event.edit(f"**{DARKultra}**: `Running Terminal.....`")
     message = (str(event.chat_id) + ':' + str(event.message.id))
     if running_processes.get(message, False):
         await event.edit("A process for this event is already running!")
@@ -26,7 +26,7 @@ async def dc(event):
         await event.edit("``` Give a command or use .help terminal.```")
         return
     if cmd in ("userbot.session", "env", "printenv"):
-        return await event.edit(f"`{DARKCOBRA}:` **Privacy Error, This command not permitted**")
+        return await event.edit(f"`{DARKultra}:` **Privacy Error, This command not permitted**")
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE)
     running_processes.update({message: process})
@@ -45,7 +45,7 @@ async def dc(event):
     output = open("term.txt", "w+")
     output.write(text)
     output.close()
-    await event.client.send_file(event.chat_id, "term.txt", reply_to=event.id, caption=f"`{DARKCOBRA}:` **Output too large, sending as file**")
+    await event.client.send_file(event.chat_id, "term.txt", reply_to=event.id, caption=f"`{DARKultra}:` **Output too large, sending as file**")
     os.remove("term.txt")           
     return
         
