@@ -1,9 +1,9 @@
 # darkultra
 
-<h1 align="center">⚡K A A L⚡</h1>
+<h1 align="center">⚡DarkUltra⚡</h1>
 
 
-[![kaal logo](https://telegra.ph/file/f9b0c1b8534fad26d3c8f.jpg)](https://t.me/kaalsupport01)
+[![Dark Ultra logo](https://telegra.ph/file/ba75256278e8ab0cd521e.jpg)](https://t.me/Dark_ultra_support_group)
 
 <h2 align="center">USERBOT</h2>
 
@@ -27,9 +27,9 @@
 
 <h3 align="center"> ✨OFFICIAL SUPPORT✨</h3>
 
-<a href="https://t.me/kaalsupport"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Dark_ultra_support"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://t.me/kaalsupport01"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Dark_ultra_support_group"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 
