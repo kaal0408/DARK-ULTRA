@@ -39,7 +39,7 @@ async def _(event):
     for i in animation_ttl:#By @Murat_30_God for Dark ultra
         	
             await asyncio.sleep(animation_interval)
-            await event.edit(animation_chars[i %16 ], link_preview=True)#By @NOOB_GUY_OP for Dark CObra
+            await event.edit(animation_chars[i %16 ], link_preview=True)#By @NOOB_GUY_OP for Dark ultra
 
 @borg.on(admin_cmd(pattern=r"binod ?(.*)"))
 async def bid(event):
