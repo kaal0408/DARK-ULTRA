@@ -22,15 +22,15 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK Ultra"
 # animation Idea by @ItzSipak && @Hell boy_pikachu
 # Made by @hellboi_atul ....and thanks to @Crackexy for the logos...
 # Kang with credits else gay...
-# alive.py for DC(DARK COBRA)
+# alive.py for DC(DARK Ultra)
 global ghanti
 ghanti = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/6aa39732748ed7c319943.jpg"
-file2 = "https://telegra.ph/file/a6d72504bc09e71484a54.jpg"
-file3 = "https://telegra.ph/file/3cdbede1d5d85aa2d50fc.jpg"
-file4 = "https://telegra.ph/file/3dae01973943e8b28c931.jpg"
+file1 = "https://telegra.ph/file/ba75256278e8ab0cd521e.jpg"
+file2 = "https://telegra.ph/file/ba75256278e8ab0cd521e.jpg"
+file3 = "https://telegra.ph/file/ba75256278e8ab0cd521e.jpg"
+file4 = "https://telegra.ph/file/ba75256278e8ab0cd521e.jpg"
 """ =======================CONSTANTS====================== """
 
 
