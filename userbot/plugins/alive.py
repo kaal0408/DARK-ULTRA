@@ -48,6 +48,7 @@ async def hmm(yes):
     pm_caption += "✘ About My System ✘\n\n"
     pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
     pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Dark_ultra_support)\n"
+    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ Group** ☞ [ᴊᴏɪɴ](https://t.me/Dark_ultra_support_group)\n"
     pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝚃𝙴𝙰𝙼 Ultra](https://github.com/kaal0408)\n"
     pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝙳𝙰𝚁𝙺-Ultra](https://github.com/kaal0408/darkultra)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
