@@ -54,7 +54,7 @@ async def hmm(yes):
     pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝙳𝙰𝚁𝙺-Ultra](https://github.com/kaal0408/darkultra)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
     pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
-    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ version**  ☞ [Version](version-0.0.1.5)\n"
+    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ version**  ☞ [Version](version-0.0.2)\n"
       on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
 
     await asyncio.sleep(edit_time)
