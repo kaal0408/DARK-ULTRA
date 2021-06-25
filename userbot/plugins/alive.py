@@ -23,6 +23,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK Ultra"
 # Made by @hellboi_atul ....and thanks to @Crackexy for the logos...
 # Kang with credits else gay...
 # alive.py for DC(DARK Ultra)
+# modify by @kaal0408 for Du
 global ghanti
 ghanti = borg.uid
 edit_time = 5
