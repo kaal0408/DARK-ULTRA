@@ -21,7 +21,7 @@
 
  <h1 align="center">💫String Session💫</h1>
 
- [![Run on Repl.it](https://repl.it/badge/github/kaal0408/darkultra&theme=midnight-purple)](https://replit.com/@theshashank/DarkUltra#main.py)
+ [![Run on Repl.it](https://repl.it/badge/github/Itzdipesh/darkultra&theme=midnight-purple)](https://replit.com/@theshashank/DarkUltra#main.py)
 
 
 
