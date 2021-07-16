@@ -1,9 +1,9 @@
-# darkultra
+# DARK-ULTRA
 
-<h1 align="center">⚡DarkUltra⚡</h1>
+<h1 align="center">⚡DARK-ULTRA⚡</h1>
 
 
-[![Dark Ultra logo](https://telegra.ph/file/ba75256278e8ab0cd521e.jpg)](https://t.me/Dark_ultra_support_group)
+[![DARK ULTRA logo](https://telegra.ph/file/ba75256278e8ab0cd521e.jpg)](https://t.me/Dark_ultra_support_group)
 
 <h2 align="center">USERBOT</h2>
 
